@@ -292,8 +292,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"Vitesse","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Explosion
+      Prefab","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 9209176057269527102, guid: 6659977e80037e140a76ac48ce67ff46, type: 3}
 --- !u!4 &53885566
 Transform:
   m_ObjectHideFlags: 0
@@ -786,10 +789,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 716925070}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 13.75, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 22.535004, y: -6.875}
+  m_SizeDelta: {x: 0, y: 13.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &189211721
 MonoBehaviour:
@@ -2405,10 +2408,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 716925070}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 13.75, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 6.875, y: -6.875}
+  m_SizeDelta: {x: 0, y: 13.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1874143468
 MonoBehaviour:
@@ -2990,10 +2993,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 716925070}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 13.75, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 38.195, y: -6.875}
+  m_SizeDelta: {x: 0, y: 13.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2051998409
 MonoBehaviour:
